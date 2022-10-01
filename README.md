@@ -18,7 +18,7 @@ Those sites are mentioned in the code.
 
 _Please note that I'm not in anyway responsible for malfunctioning of the use of Python or any of the librairies used._
 
-If the authors of the above posts would like to see their content be deleted from this program, feel free to provide any prof of it being yours.
+If the authors of the above posts would like to see their content be deleted from this program, feel free to provide any proof of it being yours.
 
 2. Librairies used in this program :
   - numpy
