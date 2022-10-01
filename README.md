@@ -36,13 +36,15 @@ If you use it in any project, hand-in lab, etc, please credit the work done by o
 
 ### Requirements
 For the time being, you need a graphical interface to use this program.
-The recommending OS and specs would be any device:
+The recommended/ideal OS and specs would be any device:
 - running under Windows 10/11 32/64bits with 
-- sufficient memory usage (just in case, around 4 to 8 GB, more is ok),
+- sufficient memory usage, around 4 to 8 GB, tested with 16GB (some already in use)
 - a processor running on 2.30 GHz basis up to 4.50 GHz
 - any hardware, as long as there is space available.
 Please avoid entering big numbers for this program; 150 was the max tested with.
 Your computer may be impacted if you voluntarily input a higher number.
+
+The above specs are close to the ones for which the program was tested on
 
 ### What does this code do ?
 This codes computes the execution time on a diagram for n iteration and until size n for each matrix.
