@@ -16,7 +16,7 @@ Those sites are mentioned in the code.
 
 - _Plotting syntax_, line 76, inspired from Example 2 on https://www.educba.com/pandas-dataframe-plot/_
 
-_Please note that I'm not in anyway responsible for malfunctioning of the use of Python or any of the librairies used._
+_Please note that I'm not in anyway responsible for malfunctioning of the use of Python, abusive number entry in the program or any of the librairies used._
 
 If the authors of the above posts would like to see their content be deleted from this program, feel free to provide any proof of it being yours.
 
@@ -33,3 +33,20 @@ Once it's done, use the IDE of your choice to execute the code, be sure to insta
 #### Use / licencing not set
 Please feel free to use this program if you need it.
 If you use it in any project, hand-in lab, etc, please credit the work done by others and what I did, as I do my best to give credit to the work of others that help me.
+
+### Requirements
+For the time being, you need a graphical interface to use this program.
+The recommending OS and specs would be any device:
+- running under Windows 10/11 32/64bits with 
+- sufficient memory usage (just in case, around 4 to 8 GB, more is ok),
+- a processor running on 2.30 GHz basis up to 4.50 GHz
+- any hardware, as long as there is space available.
+Please avoid entering big numbers for this program; 150 was the max tested with.
+Your computer may be impacted if you voluntarily input a higher number.
+
+### What does this code do ?
+This codes computes the execution time on a diagram for n iteration and until size n for each matrix.
+It will ask for the number of iterations you want to go for.
+
+Please avoid entering big numbers for this program; 150 was the max tested with.
+Your computer may be impacted if you voluntarily input a higher number.
