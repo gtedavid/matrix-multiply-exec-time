@@ -6,15 +6,15 @@
 1. This python code was developped with the help of a few websites for a Lab.
 Those sites are mentioned in the code.
 
-- _Function 1_, line 12, originates from https://stackoverflow.com/questions/17760877/getting-safe-user-input-in-python
+- _Function 1_, line 10, originates from https://stackoverflow.com/questions/17760877/getting-safe-user-input-in-python
    It was slightly modified to be used in this code
    From response edited on June 16, 2020 at 9:12, answered July 20, 2013 at 10:05 by __*TerryA*__
 
-- _Function 2_, line 27, is from https://geekflare.com/multiply-matrices-in-python/
+- _Function 2_, line 23, is from https://geekflare.com/multiply-matrices-in-python/
    It was slightly edited for the use of the program
    From "3 Ways to Multiply Matrices in Python", By __*Bala Priya C*__ in Development on July 1, 2022
 
-- _Plotting syntax_, line 76, inspired from Example 2 on https://www.educba.com/pandas-dataframe-plot/_
+- _Plotting syntax_, line 81, inspired from Example 2 on https://www.educba.com/pandas-dataframe-plot/_
 
 _Please note that I'm not in anyway responsible for malfunctioning of the use of Python, abusive number entry in the program or any of the librairies used._
 
