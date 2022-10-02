@@ -51,4 +51,5 @@ This codes computes the execution time on a diagram for n iteration and until si
 It will ask for the number of iterations you want to go for.
 
 Please avoid entering big numbers for this program; 150 was the max tested with.
+The est. time of execution for 150 iterations is a min to 3 min.
 Your computer may be impacted if you voluntarily input a higher number.
