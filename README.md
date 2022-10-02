@@ -27,8 +27,14 @@ If the authors of the above posts would like to see their content be deleted fro
 
 ### Installation and use
 Before launching this program make sure **Python 3.10** is downloaded, and you have installed the packages of the librairies mentioned above with pip.
+   1.Windows
 `pip install name_of_a_package` be sure to replace `name_of_a_package` with one of the above packets.
 Once it's done, use the IDE of your choice to execute the code, be sure to install any extensions or elements you may need to execute this Python code.
+
+   2. Debian (Linux)
+   To install Python on Linux, you can refer to one of the tutorials posted on the web.
+   This one was used : https://computingforgeeks.com/how-to-install-python-on-debian-linux/
+   `sudo pip name_of_a_package` be sure to replace `name_of_a_package` with one of the above packets.
 
 #### Use / licencing not set
 Please feel free to use this program if you need it.
@@ -36,11 +42,16 @@ If you use it in any project, hand-in lab, etc, please credit the work done by o
 
 ### Requirements
 For the time being, you need a graphical interface to use this program.
-The recommended/ideal OS and specs would be any device:
-- running under Windows 10/11 32/64bits with 
-- sufficient memory usage, around 4 to 8 GB, tested with 16GB (some already in use)
-- a processor running on 2.30 GHz basis up to 4.50 GHz
-- any hardware, as long as there is space available.
+The recommended/ideal OS and specs would be the following:
+
+   1. Windows 10/11 32/64bits with :
+   - sufficient memory usage, around 4 to 8 GB, tested with 16GB (some already in use)
+   - a processor running on 2.30 GHz basis up to 4.50 GHz
+   - any hardware, as long as there is space available.
+   
+   2. Debian 11.5.0 64 bits (VM)
+   _(Available soon)_
+
 Please avoid entering big numbers for this program; 150 was the max tested with.
 Your computer may be impacted if you voluntarily input a higher number.
 
