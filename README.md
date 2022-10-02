@@ -35,6 +35,7 @@ Once it's done, use the IDE of your choice to execute the code, be sure to insta
    To install Python on Linux, you can refer to one of the tutorials posted on the web.
    This one was used : https://computingforgeeks.com/how-to-install-python-on-debian-linux/
    `sudo pip name_of_a_package` be sure to replace `name_of_a_package` with one of the above packets.
+   On Linux I used this tutorial to install Visual Studio Code https://code.visualstudio.com/docs/setup/linux
 
 #### Use / licencing not set
 Please feel free to use this program if you need it.
