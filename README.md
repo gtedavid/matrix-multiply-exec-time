@@ -14,7 +14,7 @@ Those sites are mentioned in the code.
    It was slightly edited for the use of the program
    From "3 Ways to Multiply Matrices in Python", By __*Bala Priya C*__ in Development on July 1, 2022
 
-- _Plotting syntax_, line 81, inspired from Example 2 on https://www.educba.com/pandas-dataframe-plot/_
+- _Plotting syntax_, line 81, inspired from Example 2 on https://www.educba.com/pandas-dataframe-plot/
 
 _Please note that I'm not in anyway responsible for malfunctioning of the use of Python, abusive number entry in the program or any of the librairies used._
 
