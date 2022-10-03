@@ -55,7 +55,7 @@ The recommended/ideal OS and specs would be the following:
 
 Please avoid entering big numbers for this program; 150 was the max tested with.
 Your computer may be impacted if you voluntarily input a higher number.
-
+Note that depending on your specs wheter it be VM, laptop or container, the execution time varies
 The above specs are close to the ones for which the program was tested on
 
 ### What does this code do ?
