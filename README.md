@@ -47,6 +47,9 @@ Before launching this program make sure __Python 3.10__ is downloaded, and you h
    This one was used : <https://computingforgeeks.com/how-to-install-python-on-debian-linux/>
    `sudo python3.10 pip name_of_a_package` be sure to replace `name_of_a_package` with one of the above packets.
    On Linux I used this tutorial to install Visual Studio Code <https://code.visualstudio.com/docs/setup/linux>
+   
+   1. Docker
+   _More info to come once technical difficulties are sorted out_
 
 ### Requirements
 
@@ -66,8 +69,8 @@ The recommended/ideal OS and specs would be the following:
 
 Please avoid entering big numbers for this program; 150 was the max tested with.
 Your computer may be impacted if you voluntarily input a higher number.
-Note that depending on your specs wheter it be VM, laptop or container, the execution time varies
-The above specs are close to the ones for which the program was tested on
+Note that depending on your specs wheter it be VM, laptop or container, the execution time varies.
+The above specs are close to the ones for which the program was tested on.
 
 ### What does this code do ?
 
