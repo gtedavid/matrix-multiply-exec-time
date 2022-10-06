@@ -58,14 +58,14 @@ The recommended/ideal OS and specs would be the following:
 
    1. Windows 10/11 32/64bits with:
 
-      - sufficient memory usage, around 4 to 8 GB, tested with 16GB (some already in use)
-      - a processor running on 2.30 GHz basis up to 4.50 GHz
-      - any hardware, as long as there is space available.
+   - sufficient memory usage, around 4 to 8 GB, tested with 16GB (some already in use)
+   - a processor running on 2.30 GHz basis up to 4.50 GHz
+   - any hardware, as long as there is space available.
 
    1. Debian 11.5.0 64 bits with Graphical Interface (VM)
-      - sufficient  memory usage, around 4Gb or more, tested with 2GB
-      - a processor running on 2.30 GHz basis up to 4.50 GHz
-      - any hardware, as long as there is space available.
+   - sufficient  memory usage, around 4Gb or more, tested with 2GB
+   - a processor running on 2.30 GHz basis up to 4.50 GHz
+   - any hardware, as long as there is space available.
 
 Please avoid entering big numbers for this program; 150 was the max tested with.
 Your computer may be impacted if you voluntarily input a higher number.
