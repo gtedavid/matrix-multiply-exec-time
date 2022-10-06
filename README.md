@@ -1,6 +1,6 @@
 # matrix-multiply-exec-time - Lab 1
 
-## Task - Develop a code for monitoring time execution of matrix multiplication on 3 different platforms (Laptop/VM/Container)
+## Task - Develop & test a code for monitoring time execution of matrix multiplication on 3 different platforms (Laptop/VM/Container)
 
 ## Notice
 
