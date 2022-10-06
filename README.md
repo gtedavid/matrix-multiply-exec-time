@@ -47,9 +47,15 @@ Before launching this program make sure __Python 3.10__ is downloaded, and you h
    This one was used : <https://computingforgeeks.com/how-to-install-python-on-debian-linux/>
    `sudo python3.10 pip name_of_a_package` be sure to replace `name_of_a_package` with one of the above packets.
    On Linux I used this tutorial to install Visual Studio Code <https://code.visualstudio.com/docs/setup/linux>
+
+   1. Docker *
+   `docker run -it dgefrei/cloudinfraserviceslab1` in a command prompt to install the image of the code and the OS. You'll need to have Docker (Desktop) installed, with WSL2 for example on which it can run on. Note that once it finished installing, it will launch the program. Then you'll be asked to enter the number of iterations you want.
    
-   1. Docker
-   _More info to come once technical difficulties are sorted out_
+   The code will ran inside the container and you'll just have to type  `docker cp <id_or_name_of_container>:/iteration<Number_of_iterations>.png <targert_path>` to copy the image where you want it to be.
+   
+   For other iteration,s u'll just have to do `docker exec -it <id_or_name_of_container> bash` and then launch the program situated in home by taping `python3 Lab1.py`, and entering the number of iterations you want. You will then just need to retype the copy command to copy it to your local pc.
+
+* _Docker Desktop on Windows is used here. No other OS was tested with._
 
 ### Requirements
 
@@ -66,6 +72,9 @@ The recommended/ideal OS and specs would be the following:
    - sufficient  memory usage, around 4Gb or more, tested with 2GB
    - a processor running on 2.30 GHz basis up to 4.50 GHz
    - any hardware, as long as there is space available.
+
+   1. Docker - info variable
+   - as long as you have one of the above specs available, and a correct internet connection, all is good.
 
 Please avoid entering big numbers for this program; 150 was the max tested with.
 Your computer may be impacted if you voluntarily input a higher number.
