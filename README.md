@@ -51,9 +51,9 @@ Before launching this program make sure __Python 3.10__ is downloaded, and you h
    1. Docker *
    `docker run -it dgefrei/cloudinfraserviceslab1` in a command prompt to install the image of the code and the OS. You'll need to have Docker (Desktop) installed, with WSL2 for example on which it can run on. Note that once it finished installing, it will launch the program. Then you'll be asked to enter the number of iterations you want.
    
-   The code will ran inside the container and you'll just have to type  `docker cp <id_or_name_of_container>:/iteration<Number_of_iterations>.png <targert_path>` to copy the image where you want it to be.
+   The code will ran inside the container, it will display the average time of execution and the total time of executions for the multiplication of matrix. You'll just have to turn the container back on to copy the screen of the graph it saved by typing  `docker cp <id_or_name_of_container>:/home/iteration<Number_of_iterations>.png <targert_path>`.
    
-   For other iteration,s u'll just have to do `docker exec -it <id_or_name_of_container> bash` and then launch the program situated in home by taping `python3 Lab1.py`, and entering the number of iterations you want. You will then just need to retype the copy command to copy it to your local pc adding the path `docker cp <id_or_name_of_container>:/home/iteration<Number_of_iterations>.png <targert_path>`.
+   For other iterations, you will just have to do `docker exec -it <id_or_name_of_container> bash` and then launch the program situated in home by taping `python3 /home/Lab1.py`, and enter the number of iterations you want when prompted to. The program will give you the average time of execution and the total time of executions for the multiplication of matrix for the number of iterations you asked. Outside of the container's command interface, you will be able to copy the screen once more the same way as mentioned previously.
 
 * _Docker Desktop on Windows is used here. No other OS was tested with._
 
