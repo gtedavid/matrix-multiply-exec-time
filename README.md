@@ -53,7 +53,7 @@ Before launching this program make sure __Python 3.10__ is downloaded, and you h
    
    The code will ran inside the container and you'll just have to type  `docker cp <id_or_name_of_container>:/iteration<Number_of_iterations>.png <targert_path>` to copy the image where you want it to be.
    
-   For other iteration,s u'll just have to do `docker exec -it <id_or_name_of_container> bash` and then launch the program situated in home by taping `python3 Lab1.py`, and entering the number of iterations you want. You will then just need to retype the copy command to copy it to your local pc.
+   For other iteration,s u'll just have to do `docker exec -it <id_or_name_of_container> bash` and then launch the program situated in home by taping `python3 Lab1.py`, and entering the number of iterations you want. You will then just need to retype the copy command to copy it to your local pc adding the path `docker cp <id_or_name_of_container>:/home/iteration<Number_of_iterations>.png <targert_path>`.
 
 * _Docker Desktop on Windows is used here. No other OS was tested with._
 
