@@ -49,13 +49,13 @@ Before launching this program make sure __Python 3.10__ is downloaded, and you h
    On Linux I used this tutorial to install Visual Studio Code <https://code.visualstudio.com/docs/setup/linux>
 
    1. Docker *
-   `docker run -it dgefrei/cloudinfraserviceslab1` in a command prompt to install the image of the code and the OS. You'll need to have Docker (Desktop) installed, with WSL2 for example on which it can run on. Note that once it finished installing, it will launch the program. Then you'll be asked to enter the number of iterations you want.
+   `docker run -it dgefrei/cloudinfraserviceslab1` in a command prompt to install the image of the code and the OS. You'll need to have Docker (Desktop) installed, with WSL2 for example on which it can run. Note that once it finished installing, it will launch the program inside the container. Then you'll be asked to enter the number of iterations you want.
    
-   The code will ran inside the container, it will display the average time of execution and the total time of executions for the multiplication of matrix. You'll just have to turn the container back on to copy the screen of the graph it saved by typing  `docker cp <id_or_name_of_container>:/home/iteration<Number_of_iterations>.png <targert_path>`.
+   Once you've entrered the desired number, the code will run inside the container. Once it is done, it will save the plot in a png file and display the average time of execution and the total time of executions for the multiplication of matrix. The container will then shut down. You'll just have to turn the container back on to copy the image file of the graph by typing  `docker cp <id_or_name_of_container>:/home/iteration<Number_of_iterations>.png <targert_path>` to save it to the folder you want.
    
-   For other iterations, you will just have to do `docker exec -it <id_or_name_of_container> bash` and then launch the program situated in home by taping `python3 /home/Lab1.py`, and enter the number of iterations you want when prompted to. The program will give you the average time of execution and the total time of executions for the multiplication of matrix for the number of iterations you asked. Outside of the container's command interface, you will be able to copy the screen once more the same way as mentioned previously.
+   For other iterations, you will just have to do `docker exec -it <id_or_name_of_container> bash` and then launch the program situated in home folder by typing `python3 /home/Lab1.py`, and enter the number of iterations you want when prompted to. The program will give you the average time of execution and the total time of executions for the multiplication of matrix for the number of iterations you asked. Once more the image of the graph will be saved in the container. Outside of the container's command interface, you will be able to copy it like the previous one, the same way as mentioned previously.
 
-* _Docker Desktop on Windows is used here. No other OS was tested with._
+* _Docker Desktop on Windows is used here. The program was not tested with other OS than Debian, Windows and Ubuntu._
 
 ### Requirements
 
@@ -69,11 +69,13 @@ The recommended/ideal OS and specs would be the following:
    - any hardware, as long as there is space available.
 
    1. Debian 11.5.0 64 bits with Graphical Interface (VM)
-   - sufficient  memory usage, around 4Gb or more, tested with 2GB
+
+   - sufficient  memory usage, around 4Gb or more, tested with 2GB, than increased to 3GB for better experience.
    - a processor running on 2.30 GHz basis up to 4.50 GHz
    - any hardware, as long as there is space available.
 
    1. Docker - info variable
+
    - as long as you have one of the above specs available, and a correct internet connection, all is good.
 
 Please avoid entering big numbers for this program; 150 was the max tested with.
@@ -87,5 +89,5 @@ This codes computes the execution time on a diagram for n iteration and until si
 It will ask for the number of iterations you want to go for.
 
 Please avoid entering big numbers for this program; 150 was the max tested with.
-The est. time of execution for 150 iterations is a min to 3 min.
+The est. time of execution for 150 iterations is a minute to 3 minute, though may vary depending on your computer.
 Your computer may be impacted if you voluntarily input a higher number.
