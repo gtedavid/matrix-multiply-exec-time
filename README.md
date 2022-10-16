@@ -11,7 +11,7 @@ Those sites are mentioned in the code.
    It was slightly modified to be used in this code
    From response edited on June 16, 2020 at 9:12, answered July 20, 2013 at 10:05 by ___TerryA___
 
-- _Function 2_, line 26 (28 for [Laptop](https://github.com/gtedavid/matrix-multiply-exec-time/blob/v1.0.1/Lab1LAPTOP.py), is from <https://geekflare.com/multiply-matrices-in-python/>
+- _Function 2_, line 26 (28 for [Laptop](https://github.com/gtedavid/matrix-multiply-exec-time/blob/v1.0.1/Lab1LAPTOP.py)), is from <https://geekflare.com/multiply-matrices-in-python/>
    It was slightly edited for the use of the program
    From "3 Ways to Multiply Matrices in Python", By ___Bala Priya C___ in Development on July 1, 2022
 
