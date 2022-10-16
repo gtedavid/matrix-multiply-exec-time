@@ -3,6 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import csv
 
+# Notice : Please red the ReadMe.md file link to the repo of this code before use.
+# Code produced with the help of the links mentioned below by gtedavid
+
 # i for iteration, l for laptop, thus also why the "filecontent" has a l at the end
 with open('iteration50LAPTOP.csv', 'r') as file:
     file_contentl = list(csv.reader(file, delimiter=","))
