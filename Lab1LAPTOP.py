@@ -7,6 +7,8 @@ import csv
 
 # Notice : Please red the ReadMe.md file link to the repo of this code before use.
 # Code produced with the help of the links mentioned below by gtedavid
+
+
 input1 = "";
 
 # Function originating from https://stackoverflow.com/questions/17760877/getting-safe-user-input-in-python
