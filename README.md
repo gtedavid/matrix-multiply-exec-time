@@ -36,6 +36,8 @@ If you use it in any project, hand-in lab, etc, please credit the work done by o
 
 ### Installation and use
 
+#### Part 1 - General Use in the different environments
+
 Before launching this program make sure __Python 3.10__ is downloaded, and you have installed the packages of the librairies mentioned above with pip.
 
    1. Windows
@@ -56,6 +58,20 @@ Before launching this program make sure __Python 3.10__ is downloaded, and you h
    For other iterations, you will just have to do `docker exec -it <id_or_name_of_container> bash` and then launch the program situated in home folder by typing `python3 /home/Lab1.py`, and enter the number of iterations you want when prompted to. The program will give you the average time of execution and the total time of executions for the multiplication of matrix for the number of iterations you asked. Once more the image of the graph will be saved in the container. Outside of the container's command interface, you will be able to copy it like the previous one, the same way as mentioned previously.
 
 * _Docker Desktop on Windows is used here. The program was not tested with other OS than Debian, Windows and Ubuntu._
+
+#### Part 2 - Using the comparing python code
+
+Please note that before launching this, you would have needed to put in the same folder as where these codes are located the following :
+
+- all the iteration<number_of_iteration>LAPTOP.csv files;
+- all the iteration<number_of_iteration>vm.csv files copied manually from the virtual machines;
+- all the iteration<number_of_iteration>docker.csv files copied via command via a command prompt from the docker container.
+
+If 30, 50, 80, 100 or 150 is not one of the numbers you want to try, be sure to change the files accordingly where the correspondig number appears.
+
+Once the above is done, you'll just have to execute the file in your favorite python compiler, and see the result presented on the graph.
+Please note that when this code was tested, no errors appeared.
+Check that previous installations were done correctly.
 
 ### Requirements
 
